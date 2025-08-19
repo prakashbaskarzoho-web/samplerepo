@@ -1,5 +1,5 @@
 # Zoho Payments Website
-[![Build Status](https://git.csez.zohocorpin.com/zohofinance/zohocheckout_website/badges/master/pipeline.svg)](https://zpaygit.csez.zohocorpin.com/zohopay/zohopay_website/-/commits/master)
+[![Build Status](https://git.csez.zohocorpin.com/zohofinance/zohocheckout_website/badges/master/pipeline.svg)](https://github.com/prakashbaskarzoho-web/samplerepo/commits/main/)
 
 > A [Hugo](https://gohugo.io/) based static site powering **Zoho Payments**.
 
