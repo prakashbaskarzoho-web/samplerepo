@@ -1,11 +1,15 @@
-+++
-date = '2025-08-13T14:58:20+05:30'
-title = 'README'
-+++
-
-
 ## Zoho Payments Website [![build status](https://git.csez.zohocorpin.com/zohofinance/zohocheckout_website/badges/master/pipeline.svg)](https://zpaygit.csez.zohocorpin.com/zohopay/zohopay_website/-/commits/master)
 This is a hugo static website.
+
+## 📑 Table of Contents
+- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Folder Structure](#folder-structure-for-development)
+- [Setup](#setup)
+- [Fetching Third Party Files](#fetch-third-party-files)
+- [Deployment](#to-upload-it-in-mirror-server)
+- [Troubleshooting](#troubleshooting)
+- [Contributing Guidelines](#contributing-guidelines)
 
 ## Getting Started
 This respository contains the **ZOHO Payments** website source.
