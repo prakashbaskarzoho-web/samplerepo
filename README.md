@@ -9,7 +9,6 @@ A [Hugo](https://gohugo.io/) based static site powering **Zoho Payments**.
 - [Setup](#setup)
 - [For New Developers](#for-new-developers)
 - [Deployment](#deployment)
-- [Lighthouse Audit](#lighthouse-audit)
 - [Contributing Guidelines](#contributing-guidelines)
 
 ---
@@ -70,12 +69,6 @@ Before setting up the project, make sure you have:
   - Preview: [https://localzoho.com/payments](https://localzoho.com/payments)  
   - Check for broken links: [CMS Link Checker](http://cmsmanager.zohocorp.com/link.php)  
 - To go live, mail the list of files to be updated to the respective [WEBSITE COORDINATOR](https://git.csez.zohocorpin.com/zohofinance/zohofinance_website/wikis/website-coordinators). The list of modified files will be available in the build trace of the `deployMasterToStaging` task. 
----
-
-## Lighthouse Audit
-- For every Master pipeline Lighthouse audit task will run for Home and Pricing pages.
-- To run Lighthouse audit for any other pages, create a pipeline manually for the respective branch and pass a variable with name `link` and its value like:
-`/in/payments/contact-us/` in case of [contact](https://www.zoho.com/in/payments/contact-us/) page and give comma(,) separated values in case of multiple pages.
 
 ---
 
