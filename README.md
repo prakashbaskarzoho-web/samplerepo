@@ -8,6 +8,7 @@ A [Hugo](https://gohugo.io/) based static site powering **Zoho Payments**.
 - [Setup](#setup)
 - [For New Developers](#for-new-developers)
 - [Deployment](#deployment)
+- [Maintanence](#maintanence)
 - [Contributing Guidelines](#contributing-guidelines)
 
 ---
