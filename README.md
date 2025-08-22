@@ -5,7 +5,6 @@ A [Hugo](https://gohugo.io/) based static site powering **Zoho Payments**.
 
 ## Table of Contents
 - [Getting Started](#getting-started)
-- [Folder Structure](#folder-structure-for-development)
 - [Setup](#setup)
 - [For New Developers](#for-new-developers)
 - [Deployment](#deployment)
@@ -17,6 +16,7 @@ A [Hugo](https://gohugo.io/) based static site powering **Zoho Payments**.
 This respository contains **[ZOHO Payments](https://www.zoho.com/payments/)** website content.
 
 Zoho Git Access → [Join here](https://gitusercreation.csez.zohocorpin.com/)
+Need to get the `zpay git` access from this [Cliq Group]()
 
 Before setting up the project, make sure you have:
 
@@ -30,7 +30,10 @@ Before setting up the project, make sure you have:
   git --version
   ```  
   If not installed, get it from [here](https://git-scm.com/download).
-- Set npm registry with npm set registry http://cm-npmregistry/.
+- Run this command to set the npm registry.
+  ```bash
+  npm set registry http://cm-npmregistry/
+  ```
 - Install trago:
   ```bash
   npm i -g trago
@@ -43,14 +46,17 @@ Before setting up the project, make sure you have:
 1. Clone repository
    ```bash
    git clone https://zpaygit.csez.zohocorpin.com/zohopay/zohopay_website.git
+   ```
+2. Navigate to website folder
+  ```bash
    cd zohopay_website/website
    ```
-2. Run `yarn` (only needed for the first time).
-3. Replace the first line of /etc/hosts with the following line:
+3. Run `yarn` (only needed for the first time).
+4. Replace the first line of /etc/hosts with the following line:
     ```bash
     127.0.0.1 localhost localhost.csez.zohocorpin.com
     ```
-4. Run `trago` (or trago.cmd on Windows).
+5. Run `trago` (or trago.cmd on Windows).
 
 ---
 
@@ -63,12 +69,9 @@ Before setting up the project, make sure you have:
 ---
 
 ## Deployment
-- Accepting a Merge Request will automatically upload files in `payments` to the local server.  
+- When a Merge Request is merged, it will automatically upload the files in `payments` to the local server.  
 - Check the changes in `https://www.localzoho.com/`
-- Verify Changes:  
-  - Preview: [https://localzoho.com/payments](https://localzoho.com/payments)  
-  - Check for broken links: [CMS Link Checker](http://cmsmanager.zohocorp.com/link.php)  
-- To go live, mail the list of files to be updated to the respective [WEBSITE COORDINATOR](https://git.csez.zohocorpin.com/zohofinance/zohofinance_website/wikis/website-coordinators). The list of modified files will be available in the build trace of the `deployMasterToStaging` task. 
+- To go live, we need to initiate the deployment in this [site](https://sd.csez.zohocorpin.com/)
 
 ---
 
