@@ -70,7 +70,7 @@ Before setting up the project, make sure you have:
 
 ## Deployment
 - When a Merge Request is merged, it will automatically upload the files in `payments` to the local server.  
-- Check the changes in `https://www.localzoho.com/`
+- Check the changes in [localzoho site](`https://www.localzoho.com/`)
 - To go live, we need to initiate the deployment in this [site](https://sd.csez.zohocorpin.com/)
 
 ---
